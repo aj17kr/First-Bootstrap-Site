@@ -1,37 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>default</title>
+  <title>Codify-Learn programming languages online.</title>
   <meta charset="utf-8">
+  <!-- Chrome, Firefox OS and Opera address bar color change -->
+  <meta name="theme-color" content="#d9534f">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <link rel="stylesheet" href="http://scripteden.com/previews/Clean/assets/css/animate.css">
- <link rel="stylesheet" href="font-awesome-4.4.0\css\font-awesome.min.css">
+ <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="font-mfizz-2.0/font-mfizz.css">
-
-  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist\css\bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist\css\custom.css">
-
- <script src="bootstrap-3.3.5-dist\js\jquery.min.js"></script>
- <script src="bootstrap-3.3.5-dist\js\bootstrap.min.js"></script>
-
-  <script>
-$(document).ready(function() {
-var coloro;
-    $(".boxi").hover(function(){
-    coloro=$(".boxi").css("background-color");
-
-    $(this).css('background', 'white')
-        $(this).css('color', 'black')
-    }, function() {
-        $(this).css('background', coloro)
-        $(this).css('color', '')
-    });
-
-});
-
-</script> 
-
+ <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/custom.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -52,7 +32,6 @@ var coloro;
 <li> <a href="#courses">Courses</a> </li>
 <li> <a href="#contact">Contact</a> </li>
 </ul>
-	
 <ul class="nav navbar-nav navbar-right">
 <li> <a href="#">Sign in</a> </li>
 <li> <a href="#Register">Register</a> </li>
@@ -61,71 +40,97 @@ var coloro;
 </div>
 </nav>
 
-<div id="codify" class="container-fluid">
-
-<div class="text-center">
-<h1 style="font-size:75px;font-family:Open Sans,Helvetica Neue">CODIFY TODAY  </h1>
+<div id="codify">
+<div  class="container text-center" style="padding-top: 50px">
+<h1 style="font-size:75px;font-family:Open Sans,HelveticaNeue">CODIFY TODAY </h1>
 <hr class="hr-red">
 <p style="font-size:30px"> Make the best out of your time </p>
 <br>
-<a class="btn btn-danger btn-lg btn-first" href="#">FIND OUT MORE</a> 
+<a class="btn btn-danger btn-lg btn-first" href="#about" style="margin-top:60px">FIND OUT MORE</a> 
 </div>
-<div class="text-center" style="padding-top:50px;"> <a href="#about" style="color:inherit;text-decoration:none;"><i class="fa fa-chevron-circle-down fa-4x"> </i></a></div>
+</div>
 
-</div>
 
 <!--Start About-->
-<div id="about" class="container-fluid">
-<h2 style="font-size:40px;font-family:Open Sans,Helvetica Neue;text-align:center">Who are we ?</h2>
+<div id="about">
+<div class="container text-center">
+<h2 style="font-size:40px;font-family:Open Sans,HelveticaNeue;">Who are we ?</h2>
 <hr class="hr-light"> 
-
-<p style="font-size:25px" class="text-center"> <em>" To master your craft, you need to understand how your tools work " </em> </p> 
-<div class="row">
-<div class="col-lg-6 col-lg-offset-3" style="margin-top:10px;">
-<p style="font-size:15px;line-height:1.6;text-align:center;"> Codify is online Code learning site. Codify was built and desgined specially by keeping in mind that the students who can't go to different institues to learn programming can learn Online without facing any difficulties.</p>
-</div></div></div>
+<p style="font-size:25px"> <em>" To master your craft, you need to understand how your tools work " </em> </p> 
+<p style="font-size:16px;line-height:1.6;padding-top: 15px;padding-bottom: 15px"> Codify is online Code learning site. Codify was built and desgined specially by keeping in mind that the students who can't go to different institues to learn programming can learn Online without facing any difficulties.</p>
+</div>
+  </div>
 <!--End About-->
+
+
 
 <!--Start Courses-->
 <div id="courses" class="container-fluid">
-<div class="text-center">
-<h2 style="font-size:40px;font-family:Open Sans,Helvetica Neue;">Courses</h2>
-<hr class="hr-light">
-</div>
+<h2 class="text-center" style="font-size:40px;font-family:Open Sans,Helvetica Neue;">Courses</h2>
+<hr class="hr-light text-center">
 
-<div class="row"> <div class="row-m"> 
+<div class="row">
 
-<a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-html" style="margin-left:20px;font-size:5em;color:"></i> </div> <hr class="hr-red"> <h2 class="text-center"> HTML & CSS </h2> <p style="font-size:15px;">Fundamentals of design, front-end development, & crafting UI.</p> </div> </a>
+      <a href="#" style="color:white;">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-html" style="margin-left:20px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2> HTML & CSS </h2>
+      <p style="font-size:15px;">Fundamentals of design, front-end development, & crafting UI.</p> 
+      </div></a> 
 
-      <a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-javascript-alt" style="margin-left:15px;font-size:5em;color:"></i> </div> <hr class="hr-red"> <h2 class="text-center"> JavaScript </h2> <p style="font-size:15px;">Build lightweight applications with enhanced user interfaces.</p> </div> </a>
+      <a href="#" style="color:white">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-javascript-alt" style="margin-left:15px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2> JavaScript</h2>
+      <p style="font-size:15px;">Build lightweight applications with enhanced user interfaces.</p>
+      </div></a>
 
-      <a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-ruby-on-rails" style="margin-left:15px;font-size:5em;color:"></i> </div><hr class="hr-red"> <h2 class="text-center"> Ruby on Rails </h2> <p style="font-size:15px;">Learn Ruby on Rails, an open-source framework for the Ruby programming language. </p> </div> </a>
+      <a href="#" style="color:white">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-ruby-on-rails" style="margin-left:15px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2> Ruby on Rails </h2>
+      <p style="font-size:15px;">Learn Ruby on Rails, an open-source framework for the Ruby programming language. </p>
+      </div> </a>
 
-      <a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-nodejs" style="margin-left:15px;font-size:5em;color:"></i> </div><hr class="hr-red"> <h2 class="text-center"> NodeJS </h2> <p style="font-size:15px;">Learn how to build Web APIs in Node.js using Express.</p> </div> </a>
+      <a href="#" style="color:white">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-nodejs" style="margin-left:15px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2 class="text-center"> NodeJS </h2>
+      <p style="font-size:15px;">Learn how to build Web APIs in Node.js using Express.</p>
+      </div> </a>
 
-      <a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-python" style="margin-left:15px;font-size:5em;color:"></i> </div><hr class="hr-red"> <h2 class="text-center"> Python </h2> <p style="font-size:15px;">A powerful language used by sites like YouTube and Dropbox.</p> </div> </a>
+      <a href="#" style="color:white">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-python" style="margin-left:15px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2> Python </h2>
+      <p style="font-size:15px;">A powerful language used by sites like YouTube and Dropbox.</p>
+      </div> </a>
 
-      <a href="#" class="amal" style="color:white">
-      <div class="col-lg-4 col-sm-4 col-xs-12 boxi"> <div class="text-center"> <i class="icon-phone-gap" style="margin-left:15px;font-size:5em;color:"></i> </div><hr class="hr-red"> <h2 class="text-center"> PhoneGap </h2> <p style="font-size:15px;">Easily create apps using HTML, CSS, & JavaScript.</p> </div> </a>
-
+      <a href="#" style="color:white">
+      <div class="col-sm-4 boxi text-center">
+      <i class="icon-phone-gap" style="margin-left:15px;font-size:5em;"></i>
+      <hr class="hr-red">
+      <h2> PhoneGap </h2>
+      <p style="font-size:15px;">Easily create apps using HTML, CSS, & JavaScript.</p>
+      </div> </a>
    
-</div> </div> </div>
+  </div>
+</div>
 <!--End Courses-->
 
 
-
 <!--Start Contact-->
-<div id="contact" class="container-fluid">
+<div id="contact">
+<div class="container-fluid">
 <h2 style="font-size:40px;font-family:Open Sans,Helvetica Neue;text-align:center">Let's Meet</h2>
 <hr class="hr-light"> 
 
   <form class="form-horizontal" role="form">
-
     <div class="form-group">
       <div class="col-sm-6 col-sm-offset-3">
         <input type="text" class="form-control" id="name" placeholder="Name">
@@ -149,17 +154,15 @@ var coloro;
         <button type="submit" style="width:100%;display:block" class="btn btn-danger btn-lg">SEND MESSAGE</button>
       </div>
     </div>
-
   </form>
-
+  </div>
 </div>
 <!--End Contact-->
 
 
-
-
 <!--Div for Quote Carousel-->
-<div class="container-fluid" id="footer">
+<div id="famous-quotes">
+<div class="container-fluid">
   <div style="padding-bottom:20px">
   <div class="row">
     <div class='col-md-offset-2 col-md-8 text-center'>
@@ -191,7 +194,7 @@ var coloro;
                 </div>
                 <div class="col-sm-9">
                   <p>Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that. I think is helpful in all domains.</p>
-                  <small class="whitehey"> <b>Bill Gates</b> -Chairman ,Microsoft</small>
+                  <small class="whitetext"> <b>Bill Gates</b> -Chairman ,Microsoft</small>
                 </div>
               </div>
             </blockquote>
@@ -205,7 +208,7 @@ var coloro;
                 </div>
                 <div class="col-sm-9">
                   <p>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program</p>
-                  <small class="whitehey"> <b>Satya Nadella </b>-CEO, Microsoft Corporation</small>
+                  <small class="whitetext"> <b>Satya Nadella </b>-CEO, Microsoft Corporation</small>
                 </div>
               </div>
             </blockquote>
@@ -219,7 +222,7 @@ var coloro;
                 </div>
                 <div class="col-sm-9">
                   <p>Our policy at Facebook is literally to hire as many talented engineers as we can find. There just aren't enough people who are trained and have these skills today.</p>
-                  <small class="whitehey"><b> Mark Zuckerberg </b>-Founder, Facebook </small>
+                  <small class="whitetext"><b> Mark Zuckerberg </b>-Founder, Facebook </small>
                 </div>
               </div>
             </blockquote>
@@ -233,7 +236,7 @@ var coloro;
                 </div>
                 <div class="col-sm-9">
                   <p>Whether you want to uncover the secrets of the universe,or you just want to pursue a career in the 21st century,basic computer programming is an essential skill.</p>
-                  <small class="whitehey"><b> Stephen Hawking </b>-Theoretical Physicist, Cosmologist, and Author</small>
+                  <small class="whitetext"><b> Stephen Hawking </b>-Theoretical Physicist, Cosmologist, and Author</small>
                 </div>
               </div>
             </blockquote>
@@ -247,17 +250,18 @@ var coloro;
     </div>
   </div>
   
+     </div>
   </div>
 </div>
+<!--/Div for Quote Carousel-->
 
-<div id="footer-2" >
+<!--Footer-->
+<footer>
+<p class="heart" style="font-size: 16px"> Made with  <span class="fa fa-heart fa-2x animated pulse"> </span> in India by <a href="#" style="text-decoration:none;color:white">Akhil Jain</a></p>
+</footer>
+<!--/Footer-->
 
-<p class="heart"> Made with  <span class="fa fa-heart fa-2x animated pulse"> </span> in India </p>
-<p class="social-icon" > 
-<a href="#" style="color:white;"> <i class="fa fa-facebook-official fa-2x"> </i> </a>  
-<a href="#" style="color:white;"> <i class="fa fa-twitter-square fa-2x"> </i> </a> 
-<a href="#" style="color:white;"> <i class="fa fa-linkedin-square fa-2x"> </i> </a> 
-<a href="#" style="color:white;"> <i class="fa fa-github-alt fa-2x"> </i> </a> 
-</div>
+ <script src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+ <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
